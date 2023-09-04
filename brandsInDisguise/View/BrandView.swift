@@ -40,7 +40,7 @@ struct BrandView: View {
 				}
 
 				Rectangle()
-					.frame(width: .infinity, height: 1)
+					.frame(height: 1)
 			}
 			.foregroundStyle(.secondary)
 			.tint(.secondary)

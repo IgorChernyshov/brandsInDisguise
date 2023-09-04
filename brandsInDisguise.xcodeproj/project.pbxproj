@@ -14,6 +14,7 @@
 		CFDCF0282AA465F200007404 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCF0272AA465F200007404 /* DataSource.swift */; };
 		CFDCF02D2AA4896200007404 /* BrandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCF02C2AA4896200007404 /* BrandView.swift */; };
 		CFDCF02F2AA497DC00007404 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCF02E2AA497DC00007404 /* DetailsView.swift */; };
+		CFDCF0312AA5B8D900007404 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCF0302AA5B8D900007404 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		CFDCF0272AA465F200007404 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		CFDCF02C2AA4896200007404 /* BrandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandView.swift; sourceTree = "<group>"; };
 		CFDCF02E2AA497DC00007404 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		CFDCF0302AA5B8D900007404 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +87,10 @@
 		CFDCF02A2AA465FF00007404 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CFDCF01B2AA464E300007404 /* MainView.swift */,
 				CFDCF02C2AA4896200007404 /* BrandView.swift */,
 				CFDCF02E2AA497DC00007404 /* DetailsView.swift */,
+				CFDCF01B2AA464E300007404 /* MainView.swift */,
+				CFDCF0302AA5B8D900007404 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				CFDCF02D2AA4896200007404 /* BrandView.swift in Sources */,
 				CFDCF02F2AA497DC00007404 /* DetailsView.swift in Sources */,
 				CFDCF0282AA465F200007404 /* DataSource.swift in Sources */,
+				CFDCF0312AA5B8D900007404 /* SettingsView.swift in Sources */,
 				CFDCF01C2AA464E300007404 /* MainView.swift in Sources */,
 				CFDCF01A2AA464E300007404 /* brandsInDisguiseApp.swift in Sources */,
 			);

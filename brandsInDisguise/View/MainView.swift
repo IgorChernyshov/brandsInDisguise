@@ -38,12 +38,24 @@ struct MainView: View {
 			.navigationTitle("Бренды \(title)")
 			.navigationViewStyle(StackNavigationViewStyle())
 			.toolbar {
-				Button {
-					isInternationalToRU.toggle()
-				} label: {
-					Image(systemName: "arrow.right.arrow.left")
-						.font(.system(size: 16, weight: .semibold))
-						.tint(.cyan)
+				ToolbarItem(placement: .topBarLeading) {
+					NavigationLink {
+						SettingsView()
+					} label: {
+						Image(systemName: "gear")
+							.font(.system(size: 20, weight: .regular))
+							.tint(.cyan)
+					}
+				}
+
+				ToolbarItem(placement: .topBarTrailing) {
+					Button {
+						isInternationalToRU.toggle()
+					} label: {
+						Image(systemName: "arrow.right.arrow.left")
+							.font(.system(size: 16, weight: .semibold))
+							.tint(.cyan)
+					}
 				}
 			}
 		}
