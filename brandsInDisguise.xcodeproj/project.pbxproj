@@ -15,6 +15,7 @@
 		CFDCF02D2AA4896200007404 /* BrandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCF02C2AA4896200007404 /* BrandView.swift */; };
 		CFDCF02F2AA497DC00007404 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCF02E2AA497DC00007404 /* DetailsView.swift */; };
 		CFDCF0312AA5B8D900007404 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCF0302AA5B8D900007404 /* SettingsView.swift */; };
+		CFDCF0332AA5B9B100007404 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCF0322AA5B9B100007404 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		CFDCF02C2AA4896200007404 /* BrandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandView.swift; sourceTree = "<group>"; };
 		CFDCF02E2AA497DC00007404 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		CFDCF0302AA5B8D900007404 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CFDCF0322AA5B9B100007404 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				CFDCF0192AA464E300007404 /* brandsInDisguiseApp.swift */,
 				CFDCF0292AA465F800007404 /* Model */,
+				CFDCF0342AA5C5C800007404 /* Service */,
 				CFDCF02A2AA465FF00007404 /* View */,
 				CFDCF01D2AA464E500007404 /* Assets.xcassets */,
 				CFDCF01F2AA464E500007404 /* Preview Content */,
@@ -91,8 +94,16 @@
 				CFDCF02E2AA497DC00007404 /* DetailsView.swift */,
 				CFDCF01B2AA464E300007404 /* MainView.swift */,
 				CFDCF0302AA5B8D900007404 /* SettingsView.swift */,
+				CFDCF0322AA5B9B100007404 /* SettingView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CFDCF0342AA5C5C800007404 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 				CFDCF02D2AA4896200007404 /* BrandView.swift in Sources */,
 				CFDCF02F2AA497DC00007404 /* DetailsView.swift in Sources */,
 				CFDCF0282AA465F200007404 /* DataSource.swift in Sources */,
+				CFDCF0332AA5B9B100007404 /* SettingView.swift in Sources */,
 				CFDCF0312AA5B8D900007404 /* SettingsView.swift in Sources */,
 				CFDCF01C2AA464E300007404 /* MainView.swift in Sources */,
 				CFDCF01A2AA464E300007404 /* brandsInDisguiseApp.swift in Sources */,
@@ -319,7 +331,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Frostfell.brandsInDisguise;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frostfell.brandsInDisguise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -354,7 +366,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Frostfell.brandsInDisguise;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frostfell.brandsInDisguise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
