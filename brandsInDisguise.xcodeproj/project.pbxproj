@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF33CDA12AAB9F9B004B1C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF33CDA02AAB9F9B004B1C44 /* LaunchScreen.storyboard */; };
 		CFDCF01A2AA464E300007404 /* brandsInDisguiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCF0192AA464E300007404 /* brandsInDisguiseApp.swift */; };
 		CFDCF01C2AA464E300007404 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCF01B2AA464E300007404 /* MainView.swift */; };
 		CFDCF01E2AA464E500007404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDCF01D2AA464E500007404 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF33CDA02AAB9F9B004B1C44 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFDCF0162AA464E300007404 /* brandsInDisguise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brandsInDisguise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDCF0192AA464E300007404 /* brandsInDisguiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brandsInDisguiseApp.swift; sourceTree = "<group>"; };
 		CFDCF01B2AA464E300007404 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF33CD9F2AAB9F88004B1C44 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF33CDA02AAB9F9B004B1C44 /* LaunchScreen.storyboard */,
+				CFDCF01D2AA464E500007404 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		CFDCF00D2AA464E300007404 = {
 			isa = PBXGroup;
 			children = (
@@ -65,7 +76,7 @@
 				CFDCF0292AA465F800007404 /* Model */,
 				CFDCF0342AA5C5C800007404 /* Service */,
 				CFDCF02A2AA465FF00007404 /* View */,
-				CFDCF01D2AA464E500007404 /* Assets.xcassets */,
+				CF33CD9F2AAB9F88004B1C44 /* Resources */,
 				CFDCF01F2AA464E500007404 /* Preview Content */,
 			);
 			path = brandsInDisguise;
@@ -164,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF33CDA12AAB9F9B004B1C44 /* LaunchScreen.storyboard in Resources */,
 				CFDCF0212AA464E500007404 /* Preview Assets.xcassets in Resources */,
 				CFDCF01E2AA464E500007404 /* Assets.xcassets in Resources */,
 			);
@@ -324,6 +336,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -359,6 +372,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (

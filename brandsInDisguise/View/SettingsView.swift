@@ -19,9 +19,9 @@ struct SettingsView: View {
 						buttonText: "Оценить приложение",
 						action: { requestReview() })
 
-			SettingView(imageSystemName: "hand.thumbsup.fill",
-						buttonText: "Поддержать разработчиков",
-						action: {  })
+//			SettingView(imageSystemName: "hand.thumbsup.fill",
+//						buttonText: "Поддержать разработчиков",
+//						action: {  })
 		}
     }
 
@@ -40,7 +40,9 @@ struct SettingsView: View {
 	}
 }
 
-#Preview {
-    SettingsView()
-		.preferredColorScheme(.dark)
+struct SettingsView_Previews: PreviewProvider {
+	static var previews: some View {
+		SettingsView()
+			.preferredColorScheme(.dark)
+	}
 }

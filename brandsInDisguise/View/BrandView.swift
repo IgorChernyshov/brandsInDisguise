@@ -50,7 +50,9 @@ struct BrandView: View {
     }
 }
 
-#Preview {
-	BrandView(firstName: "Bershka", secondName: "Ecru", details: [:], isInternationalToRU: true)
-		.preferredColorScheme(.dark)
+struct BrandView_Previews: PreviewProvider {
+	static var previews: some View {
+		BrandView(firstName: "Bershka", secondName: "Ecru", details: [:], isInternationalToRU: true)
+			.preferredColorScheme(.dark)
+	}
 }

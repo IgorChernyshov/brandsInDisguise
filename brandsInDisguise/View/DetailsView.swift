@@ -29,7 +29,7 @@ struct DetailsView: View {
 						Spacer()
 					}
 					Rectangle()
-						.frame(width: .infinity, height: 1)
+						.frame(height: 1)
 				}
 			}
 		}
@@ -39,7 +39,9 @@ struct DetailsView: View {
     }
 }
 
-#Preview {
-	DetailsView(parent: "Foo Bar", details: ["foo": "bar"])
-		.preferredColorScheme(.dark)
+struct DetailsView_Previews: PreviewProvider {
+	static var previews: some View {
+		DetailsView(parent: "Foo Bar", details: ["foo": "bar"])
+			.preferredColorScheme(.dark)
+	}
 }

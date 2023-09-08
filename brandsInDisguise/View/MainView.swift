@@ -37,8 +37,8 @@ struct MainView: View {
 			}
 			.navigationTitle("Бренды \(title)")
 			.navigationViewStyle(StackNavigationViewStyle())
-			.toolbar {
-				ToolbarItem(placement: .topBarLeading) {
+			.toolbar(content: {
+				ToolbarItem(placement: .navigationBarLeading) {
 					NavigationLink {
 						SettingsView()
 					} label: {
@@ -48,7 +48,7 @@ struct MainView: View {
 					}
 				}
 
-				ToolbarItem(placement: .topBarTrailing) {
+				ToolbarItem(placement: .navigationBarTrailing) {
 					Button {
 						isInternationalToRU.toggle()
 					} label: {
@@ -57,13 +57,15 @@ struct MainView: View {
 							.tint(.cyan)
 					}
 				}
-			}
+			})
 		}
 		.tint(.primary)
     }
 }
 
-#Preview {
-    MainView()
-		.preferredColorScheme(.dark)
+struct MainView_Previews: PreviewProvider {
+	static var previews: some View {
+		MainView()
+			.preferredColorScheme(.dark)
+	}
 }

@@ -32,7 +32,9 @@ struct SettingView: View {
 	}
 }
 
-#Preview {
-	SettingView(imageSystemName: "heart.fill", buttonText: "Оценить приложение", action: { print("Did tap") })
-		.preferredColorScheme(.dark)
+struct SettingView_Previews: PreviewProvider {
+	static var previews: some View {
+		SettingView(imageSystemName: "heart.fill", buttonText: "Оценить приложение", action: { print("Did tap") })
+			.preferredColorScheme(.dark)
+	}
 }
